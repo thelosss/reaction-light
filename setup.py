@@ -26,6 +26,8 @@ SOFTWARE.
 from os import path
 from shutil import copy
 import configparser
+from keep_alive import keep_alive
+keep_alive()
 
 
 folder = path.dirname(path.realpath(__file__))
