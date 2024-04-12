@@ -1,7 +1,7 @@
 [server]
-token =
-name = Reaction Light
+token =os.getenv("token"),
+name =os.getenv("name"),
 system_channel =
-logo = https://cdn.discordapp.com/attachments/915013456749543525/915372094785716275/reactionlight.png
+logo = os.getenv("logo"),
 colour = 0xffff00
 language = en-gb
